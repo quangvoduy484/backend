@@ -1,0 +1,28 @@
+C:\Users\Van Bao\source\repos\Domain\Domain\bin\Debug\netcoreapp2.2\Domain.deps.json
+C:\Users\Van Bao\source\repos\Domain\Domain\bin\Debug\netcoreapp2.2\Domain.runtimeconfig.json
+C:\Users\Van Bao\source\repos\Domain\Domain\bin\Debug\netcoreapp2.2\Domain.runtimeconfig.dev.json
+C:\Users\Van Bao\source\repos\Domain\Domain\bin\Debug\netcoreapp2.2\Domain.dll
+C:\Users\Van Bao\source\repos\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.csprojAssemblyReference.cache
+C:\Users\Van Bao\source\repos\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Van Bao\source\repos\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.RazorAssemblyInfo.cache
+C:\Users\Van Bao\source\repos\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.RazorAssemblyInfo.cs
+C:\Users\Van Bao\source\repos\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.AssemblyInfoInputs.cache
+C:\Users\Van Bao\source\repos\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.AssemblyInfo.cs
+C:\Users\Van Bao\source\repos\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.RazorTargetAssemblyInfo.cache
+C:\Users\Van Bao\source\repos\Domain\Domain\bin\Debug\netcoreapp2.2\Domain.pdb
+C:\Users\Van Bao\source\repos\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.dll
+C:\Users\Van Bao\source\repos\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.pdb
+C:\Users\isc\Desktop\Domain\Domain\bin\Debug\netcoreapp2.2\Domain.deps.json
+C:\Users\isc\Desktop\Domain\Domain\bin\Debug\netcoreapp2.2\Domain.runtimeconfig.json
+C:\Users\isc\Desktop\Domain\Domain\bin\Debug\netcoreapp2.2\Domain.runtimeconfig.dev.json
+C:\Users\isc\Desktop\Domain\Domain\bin\Debug\netcoreapp2.2\Domain.dll
+C:\Users\isc\Desktop\Domain\Domain\bin\Debug\netcoreapp2.2\Domain.pdb
+C:\Users\isc\Desktop\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.csproj.CoreCompileInputs.cache
+C:\Users\isc\Desktop\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.RazorAssemblyInfo.cache
+C:\Users\isc\Desktop\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.RazorAssemblyInfo.cs
+C:\Users\isc\Desktop\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.AssemblyInfoInputs.cache
+C:\Users\isc\Desktop\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.AssemblyInfo.cs
+C:\Users\isc\Desktop\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.RazorTargetAssemblyInfo.cache
+C:\Users\isc\Desktop\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.dll
+C:\Users\isc\Desktop\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.pdb
+C:\Users\isc\Desktop\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.csprojAssemblyReference.cache
