@@ -16,5 +16,7 @@ namespace Domain.Models
         
         public DbSet<Student> Students { get; set; }
         public DbSet<Major> Majors { get; set; }
+        public DbSet<Login> Logins { get; set; }
+
     }
 }

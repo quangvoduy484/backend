@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Domain.Controllers
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class MajorControllers : Controller
     {
         StudentContext _context;

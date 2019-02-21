@@ -26,8 +26,8 @@ namespace Domain
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddDbContext<StudentContext>(opts => opts.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
-            services.AddDbContext<StudentContext>(opts => opts.UseMySql(Configuration["ConnectionStrings:DefaultConnection"]));
+            services.AddDbContext<StudentContext>(opts => opts.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
+           // services.AddDbContext<StudentContext>(opts => opts.UseMySql(Configuration["ConnectionStrings:DefaultConnection"]));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 

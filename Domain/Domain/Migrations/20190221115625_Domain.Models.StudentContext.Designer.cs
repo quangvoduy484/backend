@@ -2,13 +2,14 @@
 using Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Domain.Migrations
 {
     [DbContext(typeof(StudentContext))]
-    [Migration("20190218024051_Domain.Models.StudentContext")]
+    [Migration("20190221115625_Domain.Models.StudentContext")]
     partial class DomainModelsStudentContext
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -16,14 +17,33 @@ namespace Domain.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.2.2-servicing-10034")
-                .HasAnnotation("Relational:MaxIdentifierLength", 64);
+                .HasAnnotation("Relational:MaxIdentifierLength", 128)
+                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+            modelBuilder.Entity("Domain.Models.Login", b =>
+                {
+                    b.Property<int>("LoginId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Password");
+
+                    b.Property<string>("Username")
+                        .HasColumnName("Name");
+
+                    b.HasKey("LoginId");
+
+                    b.ToTable("Logins");
+                });
 
             modelBuilder.Entity("Domain.Models.Major", b =>
                 {
                     b.Property<int>("MajorId")
-                        .ValueGeneratedOnAdd();
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Name");
+                    b.Property<string>("MajorName")
+                        .HasColumnName("Name");
 
                     b.HasKey("MajorId");
 
@@ -33,14 +53,15 @@ namespace Domain.Migrations
             modelBuilder.Entity("Domain.Models.Student", b =>
                 {
                     b.Property<int>("StudentId")
-                        .ValueGeneratedOnAdd();
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Code");
 
                     b.Property<int>("MajorId");
 
-                    b.Property<string>("Name")
-                        .HasColumnName("StudentName")
+                    b.Property<string>("StudentName")
+                        .HasColumnName("Name")
                         .HasMaxLength(100);
 
                     b.HasKey("StudentId");

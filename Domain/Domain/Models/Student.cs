@@ -15,11 +15,12 @@ namespace Domain.Models
 
         public string Code { get; set; }
 
-        [Column("StudentName")]
+        [Column("Name")]
         [MaxLength(100)]
-        public string Name { get; set; }
+        public string StudentName { get; set; }
 
         public int MajorId { get; set; }
+
         [ForeignKey("MajorId")]
         public virtual Major Major { get; set; }
     }

@@ -29,7 +29,7 @@ namespace Domain.Controllers
             {
                 StudentId = x.StudentId,
                 Code = x.Code,
-                Name = x.Name,
+                Name = x.StudentName,
                 MajorName=x.Major.MajorName
                 
                 

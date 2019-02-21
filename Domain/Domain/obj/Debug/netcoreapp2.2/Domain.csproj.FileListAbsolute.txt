@@ -26,3 +26,17 @@ C:\Users\isc\Desktop\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.RazorTargetAss
 C:\Users\isc\Desktop\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.dll
 C:\Users\isc\Desktop\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.pdb
 C:\Users\isc\Desktop\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.csprojAssemblyReference.cache
+C:\Users\quangduyvo\Desktop\backend\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.csproj.CoreCompileInputs.cache
+C:\Users\quangduyvo\Desktop\backend\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.RazorAssemblyInfo.cache
+C:\Users\quangduyvo\Desktop\backend\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.RazorAssemblyInfo.cs
+C:\Users\quangduyvo\Desktop\backend\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.AssemblyInfoInputs.cache
+C:\Users\quangduyvo\Desktop\backend\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.AssemblyInfo.cs
+C:\Users\quangduyvo\Desktop\backend\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.dll
+C:\Users\quangduyvo\Desktop\backend\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.pdb
+C:\Users\quangduyvo\Desktop\backend\Domain\Domain\bin\Debug\netcoreapp2.2\Domain.deps.json
+C:\Users\quangduyvo\Desktop\backend\Domain\Domain\bin\Debug\netcoreapp2.2\Domain.runtimeconfig.json
+C:\Users\quangduyvo\Desktop\backend\Domain\Domain\bin\Debug\netcoreapp2.2\Domain.runtimeconfig.dev.json
+C:\Users\quangduyvo\Desktop\backend\Domain\Domain\bin\Debug\netcoreapp2.2\Domain.dll
+C:\Users\quangduyvo\Desktop\backend\Domain\Domain\bin\Debug\netcoreapp2.2\Domain.pdb
+C:\Users\quangduyvo\Desktop\backend\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.RazorTargetAssemblyInfo.cache
+C:\Users\quangduyvo\Desktop\backend\Domain\Domain\obj\Debug\netcoreapp2.2\Domain.csprojAssemblyReference.cache
